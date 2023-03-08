@@ -1,0 +1,10 @@
+com\practice\BatchExecution2Test.class
+com\practice\MavenPracticeTest.class
+edu\sms\admin\AddExamMarksAndVerify.class
+com\practice\BrokenLinkTest.class
+edu\sms\admin\AddAndVerifyTimetable.class
+com\practice\BatchExecution3Test.class
+edu\sms\admin\AddExamTimetableAndVerify.class
+com\practice\ShadowRootTest.class
+com\practice\BatchExecution1Test.class
+edu\sms\admin\AssignSubject.class

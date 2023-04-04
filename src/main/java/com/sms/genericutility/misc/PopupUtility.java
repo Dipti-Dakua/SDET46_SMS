@@ -102,16 +102,16 @@ public class PopupUtility {
 		public void switchToWindow(WebDriver driver,String partilWinTitle)
 		{
 			Set<String> allwindows=driver.getWindowHandles();
-			{
+			
 				for(String indwindow:allwindows)
 				{
 					String currentWinTitle=driver.switchTo().window(indwindow).getTitle();
-					if((currentWinTitle).contains(partilWinTitle))
+					if(currentWinTitle.contains(partilWinTitle))
 					{
 						break;
 					}
 				}
-			}
+			
 			
 		 }
 /**
